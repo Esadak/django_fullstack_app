@@ -1,0 +1,79 @@
+body {
+  background-color: #121212; /* matt svart */
+  color: white; /* för att texten ska synas mot mörk bakgrund */
+  margin: 0; /* ta bort standardmarginal */
+  font-family: Arial, sans-serif; /* flytta font-family hit så det gäller hela sidan */
+}
+
+/* Container for the whole page */
+div {
+  /* font-family: Arial, sans-serif;  Ta bort härifrån eftersom det finns i body */
+}
+
+/* Styles for the notes section */
+.notes-section {
+  margin-bottom: 2rem;
+}
+
+.notes-section h2 {
+  color: #eee; /* ljusare textfärg för rubriker */
+  font-size: 24px;
+}
+
+/* Styles for individual notes - assuming your Note component has some container element */
+.note {
+  background-color: #1e1e1e; /* mörkgrå bakgrund på noterna */
+  border-left: 5px solid #007bff;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ddd; /* ljus textfärg */
+}
+
+/* Styles for the form section */
+form {
+  background-color: #222; /* mörk bakgrund på formuläret */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  max-width: 500px;
+  margin: auto;
+  color: white;
+}
+
+form h2 {
+  color: #eee;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0 16px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}

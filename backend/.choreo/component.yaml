@@ -1,0 +1,7 @@
+componentVersion: 1.2.0
+type: service
+name: django-backend
+server:
+  port: 8000
+  type: REST
+  networkVisibility: Public  
